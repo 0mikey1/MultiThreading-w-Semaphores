@@ -1,12 +1,3 @@
-/*
-Assignment 3 
-
-This program (Assignment 3) is a continuation of Assignment 2. We modified the code from Assignment 2, by implementing a solution to the critial section problem with threads using semaphores and by adding a third counting thread which counts by 1 each time it enters its critical section to 2,000,000. Each counts to 2,000,000 for a total of 6,000,000.
-
-Written by: Michael Charran, Alejandro Cartegena and Michael Ben-Tov
-
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <pthread.h>
